@@ -2,7 +2,7 @@
 
 import { medusaClient } from "@lib/config"
 import { Dialog } from "@headlessui/react"
-import { ArrowPath, ArrowUpMini, ShoppingBag, Spinner, Trash } from "@medusajs/icons"
+import { ArrowPath, ArrowUpMini, ShoppingBag, Trash } from "@medusajs/icons"
 import { useTranslation } from "react-i18next"
 import React, {
   useState,
@@ -31,7 +31,7 @@ import Cropper from "react-easy-crop"
 import getCroppedImg from "@lib/util/cropImage"
 import { Area } from "react-easy-crop/types"
 import { Slider } from "@mui/material" // You can replace this with any slider component
-
+import Spinner from "@modules/common/icons/spinner"
 
 interface MyImagesComponentProps {
   customer: any
